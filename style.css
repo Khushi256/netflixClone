@@ -13,6 +13,7 @@ body{
     background-repeat: no repeat;
     height: 90vh;
     position: relative;
+    flex-wrap:wrap;
 }
 .main .box{
     height: 90vh;
@@ -28,6 +29,7 @@ nav{
     margin: auto;
     display: flex;
     align-items: center;
+    flex-wrap:wrap;
 }
 img{
    position: relative;
@@ -42,6 +44,7 @@ button{
     align-items: center;
     justify-content: center;
     flex-direction: column;
+    flex-wrap:wrap;
     position:relative;
     color:white;
     height:68vh;
@@ -103,6 +106,7 @@ button{
     display:flex;
     align-items: center;
     justify-content:center;
+    flex-wrap:wrap;
     gap:16px;
  }
  .main input{
@@ -112,6 +116,7 @@ button{
     background-color: rgba(25, 25, 25, 0.7);
     border: 0.7px solid rgba(232, 224, 224, 0.7);
     border-radius:4px;
+    flex-wrap:wrap;
  }
  .heading{
     color:white;
@@ -133,6 +138,7 @@ button{
     height:280px;
     width:80%;
     padding-left:150px;
+    overflow:hidden;
     
  }
  .box1{
@@ -143,6 +149,8 @@ button{
     margin: 10px  20px 20px 20px;
     border-radius:10px;
     border:0.5px solid  rgba(49, 48, 48, 0.7) ;
+    overflow:hidden;
+
  }
  .box2{
     background-image:url("luckybhaskar.jpg");
@@ -152,6 +160,7 @@ button{
     margin: 10px  20px 20px 20px;
     border-radius:10px;
     border:0.5px solid  rgba(49, 48, 48, 0.7) ;
+    overflow:hidden;
  }
  .box3{
     background-image:url("unchartedd.jpg");
@@ -161,6 +170,7 @@ button{
     margin: 10px 20px 20px 20px;
     border-radius:10px;
     border:0.5px solid  rgba(49, 48, 48, 0.7) ;
+    
  }
  .box4{
     background-image:url("venomm.jpg");
@@ -280,11 +290,14 @@ button{
    height:550px;
    width:1120px;
    margin-left:150px;
+   overflow:hidden;
 }
 .q1{
    display:flex;
    justify-content:space-between;
    align-items: center;
+   flex-wrap:wrap;
+   position:relative;
    background-color:rgb(46, 46, 46) ;
    color:white;
    font-weight:400;
@@ -294,6 +307,7 @@ button{
    height:15px;
    padding-left:20px;
    padding-right:20px;
+   overflow:hidden;
 }
 .q1:hover{
    background-color: #414141;
@@ -304,6 +318,7 @@ button{
     align-items: center;
     justify-content: center;
     flex-direction: column;
+    flex-wrap:wrap;
     position:relative;
     color:white;
     height:27vh;
@@ -372,4 +387,166 @@ footer span{
    margin-top:35px;
    margin-left:139px;
    color:rgb(166, 163, 163);
-}
+} 
+/* Responsive Styles */
+@media screen and (max-width: 1024px) {
+   .main input {
+     padding: 15px 100px 15px 10px;
+   }
+ 
+   .hero .one {
+     font-size: 40px;
+   }
+ 
+   .hero .two, .hero .three {
+     font-size: 18px;
+   }
+ 
+   .movie, .dabba, .qna {
+     width: 90%;
+     padding-left: 0;
+   }
+ 
+   .heading, .reason, .question {
+     margin-left: 50px;
+     font-size: 22px;
+   }
+ 
+   .footer {
+     grid-template-columns: 1fr 1fr;
+     padding-left: 50px;
+   }
+ 
+   .lastbtn, .india {
+     margin-left: 50px;
+   }
+ 
+   .again input {
+     padding: 15px 150px 15px 10px;
+   }
+ }
+ 
+ @media screen and (max-width: 768px) {
+   nav {
+     flex-direction: column;
+     align-items: flex-start;
+   }
+ 
+   .main input, .again input {
+     padding: 15px 50px 15px 10px;
+     width: 90%;
+   }
+ 
+   .hero .one {
+     font-size: 32px;
+   }
+ 
+   .hero .two, .hero .three {
+     font-size: 16px;
+     text-align: center;
+     padding: 10px;
+   }
+ 
+   .herobtn {
+     flex-direction: column;
+   }
+ 
+   .movie, .dabba {
+     flex-direction: column;
+     align-items: center;
+     padding-left: 0;
+     height: auto;
+   }
+ 
+   .qna {
+     width: 90%;
+     margin-left: auto;
+     margin-right: auto;
+   }
+ 
+   .q1 {
+     width: 100%;
+     font-size: 18px;
+     padding: 20px;
+   }
+ 
+   .heading, .reason, .question {
+     font-size: 20px;
+     margin-left: 20px;
+   }
+ 
+   .footer {
+     grid-template-columns: 1fr;
+     padding-left: 20px;
+   }
+ 
+   .lastbtn, .india {
+     margin-left: 20px;
+   }
+ 
+   .again {
+     padding: 20px;
+   }
+ 
+   .again input {
+     padding: 12px;
+     width: 90%;
+   }
+ 
+   .redbtn2 {
+     width: 90%;
+     font-size: 18px;
+     padding: 10px;
+     margin-top: 10px;
+   }
+ }
+ 
+ @media screen and (max-width: 480px) {
+   .hero .one {
+     font-size: 26px;
+   }
+ 
+   .hero .two, .hero .three {
+     font-size: 14px;
+   }
+ 
+   .redbtn, .redbtn2 {
+     font-size: 16px;
+     padding: 10px 20px;
+   }
+ 
+   .main {
+     height: auto;
+   }
+ 
+   .main .box {
+     height: auto;
+   }
+ 
+   .box1, .box2, .box3, .box4, .box5 {
+     width: 150px;
+     height: 220px;
+   }
+ 
+   .db1, .db2, .db3, .db4 {
+     width: 90%;
+     margin: 10px;
+     height: auto;
+     padding: 20px;
+   }
+ 
+   .qna {
+     height: auto;
+   }
+ }
+ @media screen and (max-width: 480px) {
+   .main {
+     height: auto;
+     min-height: 90vh;
+   }
+ 
+   .main .box {
+     height: 100%;
+   }
+ }
+ 
