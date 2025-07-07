@@ -20,12 +20,12 @@ This is a simple static clone of the Netflix landing page. It replicates the lay
 
 1. **Clone the Repository**:
 ```bash
-   git clone https://github.com/your-username/netflix-landing-page.git
+   git clone https://github.com/Khushi256/netflixClone.git
  ```
    
 2. **Navigate to the Project Directory**:
 ```bash
-  cd netflix-landing-page
+  cd netflixClone
  ```
 
 3. Open the **index.html** file in your browser to see the landing page.
