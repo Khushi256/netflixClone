@@ -2,6 +2,10 @@
 
 This is a simple static clone of the Netflix landing page. It replicates the layout and basic functionality of the Netflix homepage, including the hero section, trending movies section, reasons to join, frequently asked questions, and footer.
 
+## Demo
+<img width="2841" height="1535" alt="Document - Comet 19-03-2026 09_59_27" src="https://github.com/user-attachments/assets/7d9acd58-0cb1-4ced-9ec6-856314127f55" />
+
+
 ## Features
 
 - **Hero Section**: A large background image with a heading and call-to-action button for signing up.
