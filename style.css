@@ -7,7 +7,7 @@ body{
     background-color: black;
 }
 .main{
-    background-image: url("bgg.jpg");
+    background-image: url("bg.jpg");
     background-position: center center;
     background-size: max(1200px,100vw);
     background-repeat: no repeat;
@@ -142,7 +142,7 @@ button{
     
  }
  .box1{
-    background-image:url("bhoolbhulaiya.jpg");
+    background-image:url("img1.jpg");
     background-size: cover;
     height:260px;
     width:180px;
@@ -153,7 +153,7 @@ button{
 
  }
  .box2{
-    background-image:url("luckybhaskar.jpg");
+    background-image:url("img2.jpg");
     background-size: cover;
     height:260px;
     width:180px;
@@ -163,7 +163,7 @@ button{
     overflow:hidden;
  }
  .box3{
-    background-image:url("unchartedd.jpg");
+    background-image:url("img3.jpg");
     background-size: cover;
     height:260px;
     width:180px;
@@ -173,7 +173,7 @@ button{
     
  }
  .box4{
-    background-image:url("venomm.jpg");
+    background-image:url("img4.jpg");
     background-size: cover;
     height:260px;
     width:180px;
@@ -182,7 +182,7 @@ button{
     border:0.5px solid  rgba(49, 48, 48, 0.7) ;
  }
  .box5{
-    background-image:url("pushpaa2.jpg");
+    background-image:url("img5.jpg");
     background-size: cover;
     height:260px;
     width:180px;
